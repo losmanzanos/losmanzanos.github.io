@@ -1,0 +1,63 @@
+/* Contact */
+
+#contact {
+  text-align: center;
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact h2 {
+  font-family: "Beth Ellen", cursive;
+  font-size: 40px;
+}
+
+#contact p {
+  font-size: 30px;
+}
+
+.wave {
+  text-align: center;
+  padding: 0px;
+}
+
+#wave {
+  font-size: 35px;
+}
+
+#contact form input,
+textarea {
+  display: block;
+  margin: 10px auto;
+  border: solid rgb(251, 107, 170);
+  font-family: "Indie Flower", cursive;
+}
+
+#contact textarea {
+  width: 200px;
+}
+
+#contact input[type="submit"] {
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+#social {
+  margin: 10px;
+  text-align: center;
+}
+
+#social p {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+
+.actions {
+  padding-left: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
